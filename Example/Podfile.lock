@@ -1,0 +1,16 @@
+PODS:
+  - MCXPodTest (0.1.0)
+
+DEPENDENCIES:
+  - MCXPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  MCXPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MCXPodTest: 3ad6fe7b9bd6b80e072256c7ac15feab5f24d520
+
+PODFILE CHECKSUM: 6a2d2cdf3aeb1612ac15e344169df8f253c3cf2d
+
+COCOAPODS: 1.5.3
