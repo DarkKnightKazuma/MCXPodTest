@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MCXPodTest_Example' do
+  pod 'MCXPodTest', :path => '../'
+
+  target 'MCXPodTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
