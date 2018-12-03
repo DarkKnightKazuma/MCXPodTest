@@ -44,17 +44,21 @@ static CGFloat const kItemCellHeight = 40;
 #pragma mark - Init
 
 - (instancetype)initWithFrame:(CGRect)frame {
+    
     self = [super initWithFrame:frame];
     if (self) {
         [self setupView];
         [self setupProperty];
     }
     return self;
+    
 }
 
 - (instancetype)initWithDataSource:(NSArray*)dataSource {
+    
     _dataSource = dataSource;
     return [self initWithFrame:CGRectZero];
+    
 }
 
 - (void)layoutSubviews {
@@ -64,6 +68,7 @@ static CGFloat const kItemCellHeight = 40;
 
 #pragma mark - Setup
 - (void)setupProperty {
+    
     _textColor = [UIColor blackColor];
     _font = [UIFont systemFontOfSize:15];
     _selectedIndex = 0;
