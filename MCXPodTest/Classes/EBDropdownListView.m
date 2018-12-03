@@ -8,8 +8,11 @@
 
 #import "EBDropdownListView.h"
 @implementation EBDropdownListItem
+
 - (instancetype)initWithItem:(NSString*)itemId itemName:(NSString*)itemName {
+    
     self = [super init];
+    
     if (self) {
         _itemId = itemId;
         _itemName = itemName;
